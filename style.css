@@ -19,25 +19,28 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  flex: 0 1 300px;
-  gap: 2rem;
+  flex: 1 1 300px;
+  gap: 6rem;
   padding: 3rem;
   background-color: black;
   height: 500px;
   border-radius: 16px;
   box-shadow: 4px 4px 24px black;
+  max-width: 375px;
 }
 
 .input {
   display: flex;
   gap: 0.5rem;
 }
+
 input {
   height: 35px;
 }
 
 .btn-container button {
-  width: 94px;
+  width: 70px;
   height: 35px;
   border-radius: 4px;
+  margin-top: 5px;
 }
