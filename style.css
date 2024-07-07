@@ -2,4 +2,42 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+.container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 0 1 300px;
+  gap: 2rem;
+  padding: 3rem;
+  background-color: black;
+  height: 500px;
+  border-radius: 16px;
+  box-shadow: 4px 4px 24px black;
+}
+
+.input {
+  display: flex;
+  gap: 0.5rem;
+}
+input {
+  height: 35px;
+}
+
+.btn-container button {
+  width: 94px;
+  height: 35px;
+  border-radius: 4px;
 }
